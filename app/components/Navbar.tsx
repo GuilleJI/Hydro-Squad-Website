@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             {/* Navbar brand */}
             <div className="container-fluid m-2">
-                <a className="navbar-brand" href="">Hydro Squad</a>
+                <a className="navbar-brand" href="/">Hydro Squad</a>
                 <button 
                 className="navbar-toggler" 
                 type="button" 
