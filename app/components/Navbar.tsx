@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             {/* Navbar brand */}
             <div className="container-fluid m-2">
-                <a className="navbar-brand" href="#">Hydro Squad</a>
+                <a className="navbar-brand" href="">Hydro Squad</a>
                 <button 
                 className="navbar-toggler" 
                 type="button" 
@@ -31,19 +31,19 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end p-3" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item m-2">
-                            <a className="nav-link active" aria-current="page" href="#home">Home</a>
+                            <Link className="nav-link active" aria-current="page" href="/">Home</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <a className="nav-link" href="#services">Services</a>
+                            <Link className="nav-link" href="/Routing/services">Services</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <a className="nav-link" href="#gallery">Gallery</a>
+                            <Link className="nav-link" href="/Routing/gallery">Gallery</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <a className="nav-link" href="#about">About Us</a>
+                            <Link className="nav-link" href="/Routing/about">About Us</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <a className="nav-link" href="#contact">Contact</a>
+                            <Link className="nav-link" href="/Routing/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
