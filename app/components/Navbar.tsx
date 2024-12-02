@@ -10,8 +10,10 @@ if(typeof window !== "undefined"){
 
 export default function Navbar() {
     return (
+        // Navbar
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
+            {/* Navbar brand */}
+            <div className="container-fluid m-2">
                 <a className="navbar-brand" href="#">Hydro Squad</a>
                 <button 
                 className="navbar-toggler" 
@@ -24,21 +26,23 @@ export default function Navbar() {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+                {/* Navbar links */}
+                <div className="collapse navbar-collapse justify-content-end p-3" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item ">
+                        <li className="nav-item m-2">
                             <a className="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item m-2">
                             <a className="nav-link" href="#services">Services</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item m-2">
                             <a className="nav-link" href="#gallery">Gallery</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item m-2">
                             <a className="nav-link" href="#about">About Us</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item m-2">
                             <a className="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
