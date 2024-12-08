@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import bg from './images/background.jpeg';
+import bg from './images/Background.avif';
 import  "bootstrap/dist/css/bootstrap.min.css"
 
 export default function Page() {
@@ -7,18 +7,38 @@ export default function Page() {
     <div>
       <Image
         src={bg}
-        fill 
+        fill
         alt='background'
         sizes='100vw'
         style={{
           objectFit: 'cover',
-          zIndex: -1
+          zIndex: -1,
+          filter: 'brightness(65%)'
         }}
-        
-      
       />
+    <br/>
+    <div className='d-flex justify-content-center my-5'>
+      <div className='jumbotron my-5 px-5'> 
+        <h1 className='display-6 text-white text-center fw-bold'>
+          Professional Hood Cleaning for Kitchens That Mean Business
+        </h1>
+        <br/>
+        <p className='lead text-center text-white px-5 mx-auto fw-normal' style={{ maxWidth: '900px' }}>
+          Transform your kitchen into a clean, efficient workspace with expert exhaust hood cleaning. We deliver spotless results that keep your kitchen running smoothly and safely.
+        </p>
+        <hr className='my-3'/>
+        <p className='text-white text-center'>
+          Have questions about our kitchen exhaust cleaning services? Click the button below to reach out to us today!
+        </p>
+        <br/>
+        <p className='lead d-flex justify-content-center'>
+          <a className='btn btn-dark btn-lg' href='/Routing/contact' role='button'>Reach out</a>
+        </p>
+      </div>
 
+      </div>
     </div>
+      
   )
 }
 

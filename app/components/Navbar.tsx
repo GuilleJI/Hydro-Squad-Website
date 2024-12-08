@@ -15,15 +15,15 @@ if(typeof window !== "undefined"){
 export default function Navbar() {
     return (
         // Navbar
-        <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: 'rgba(204, 228, 228, 0.27)'}}>
+        <nav className="navbar navbar-expand-md navbar-light" style={{backgroundColor: 'rgba(56, 57, 58, 0.8)'}}>
             {/* Navbar brand */}
             <div className="container-fluid m-2">
                 <Image 
                     alt="Hydro Squad" 
-                    className="navbar-brand rounded-4" 
+                    className="navbar-brand rounded-4 shadow-lg" 
                     src={Lg}
                     width="200" 
-                    height="120"
+                    height="100"
                 />
                 <button 
                     className="navbar-toggler" 
@@ -38,22 +38,22 @@ export default function Navbar() {
                 </button>
 
                 {/* Navbar links */}
-                <div className="collapse navbar-collapse justify-content-end p-3" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse justify-content-end p-3 " id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item m-2 ">
-                            <Link className="nav-link active text-white" aria-current="page" href="/" >Home</Link>
+                            <Link className="nav-link active text-white hover-effect" aria-current="page" href="/" >Home</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link text-white" href="/Routing/services">Services</Link>
+                            <Link className="nav-link text-white hover-effect" href="/Routing/services">Services</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link text-white" href="/Routing/gallery">Gallery</Link>
+                            <Link className="nav-link text-white hover-effect" href="/Routing/gallery">Gallery</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link text-white" href="/Routing/about">About Us</Link>
+                            <Link className="nav-link text-white hover-effect" href="/Routing/about">About Us</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link text-white " href="/Routing/contact">Contact</Link>
+                            <Link className="nav-link text-white hover-effect" href="/Routing/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
