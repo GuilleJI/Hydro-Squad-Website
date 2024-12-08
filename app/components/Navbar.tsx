@@ -1,7 +1,11 @@
 'use client'; // Denotes that the file is a client-side script written in TypeScript
 
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Lg from "../images/Logo.jpg";
+console.log(Lg);
 
 // if the window object is defined, import the bootstrap bundle
 if(typeof window !== "undefined"){
@@ -11,18 +15,24 @@ if(typeof window !== "undefined"){
 export default function Navbar() {
     return (
         // Navbar
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: 'rgba(204, 228, 228, 0.27)'}}>
             {/* Navbar brand */}
             <div className="container-fluid m-2">
-                <a className="navbar-brand" href="/">Hydro Squad</a>
+                <Image 
+                    alt="Hydro Squad" 
+                    className="navbar-brand rounded-4" 
+                    src={Lg}
+                    width="200" 
+                    height="120"
+                />
                 <button 
-                className="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navbarSupportedContent" 
-                aria-controls="navbarSupportedContent" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation"
+                    className="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -30,20 +40,20 @@ export default function Navbar() {
                 {/* Navbar links */}
                 <div className="collapse navbar-collapse justify-content-end p-3" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item m-2">
-                            <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+                        <li className="nav-item m-2 ">
+                            <Link className="nav-link active text-white" aria-current="page" href="/" >Home</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link" href="/Routing/services">Services</Link>
+                            <Link className="nav-link text-white" href="/Routing/services">Services</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link" href="/Routing/gallery">Gallery</Link>
+                            <Link className="nav-link text-white" href="/Routing/gallery">Gallery</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link" href="/Routing/about">About Us</Link>
+                            <Link className="nav-link text-white" href="/Routing/about">About Us</Link>
                         </li>
                         <li className="nav-item m-2">
-                            <Link className="nav-link" href="/Routing/contact">Contact</Link>
+                            <Link className="nav-link text-white " href="/Routing/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

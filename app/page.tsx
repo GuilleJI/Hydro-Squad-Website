@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import bg from './images/background.jpeg';
+import  "bootstrap/dist/css/bootstrap.min.css"
 
 export default function Page() {
   return(
@@ -13,6 +14,7 @@ export default function Page() {
           objectFit: 'cover',
           zIndex: -1
         }}
+        
       
       />
 
