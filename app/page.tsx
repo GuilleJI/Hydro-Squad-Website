@@ -32,7 +32,7 @@ export default function Page() {
         </p>
         <br/>
         <p className='lead d-flex justify-content-center'>
-          <a className='btn btn-dark btn-lg' href='/Routing/contact' role='button'>Reach out</a>
+          <a className='btn btn-warning btn-lg border' href='/Routing/contact' role='button'>Reach out</a>
         </p>
       </div>
 
