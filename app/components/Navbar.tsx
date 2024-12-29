@@ -23,7 +23,7 @@ export default function Navbar() {
                     className="navbar-brand rounded-4 shadow-lg" 
                     src={Lg}
                     width="200" 
-                    height="100"
+                    height="120"
                 />
                 <button 
                     className="navbar-toggler" 
