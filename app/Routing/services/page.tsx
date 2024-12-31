@@ -4,10 +4,16 @@ import logo from '../../images/NFPA-logo.png';
 import hood from '../../images/hood-sample.jpg';
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
+import bg from '../../images/man-doing-professional-home-cleaning-service.jpg';
 
 export default function Services() {
     return (
         <>
+            <div className="container-fluid p-5 bg-primary text white text-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", }}>
+                <h1 className="text-white d-flex p-4">Our Services</h1>
+                {/* <p  className="text-white d-flex p-2"></p> */}
+            </div>
+
             <div className="container">
                 <div className="row">
                     <div className="col w-50 p-5 m-3">
