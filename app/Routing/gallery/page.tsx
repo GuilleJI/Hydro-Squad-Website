@@ -16,20 +16,20 @@ export default function Gallery() {
     return (
         <>
             
-            <div className="container-fluid p-5 bg-primary text white text-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}} >
-                <h1 className="text-white">Our Photo Gallery</h1>
-                <p  className="text-white">Before and After</p>
+            <div className="container-fluid p-5 bg-primary text white text-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", }}>
+                <h1 className="text-white d-flex p-2">Our Photo Gallery</h1>
+                <p  className="text-white d-flex p-2">Before and After</p>
             </div>
             <br/><br/>
             <div>
-                <p className="container mt-5" style={{ maxWidth: "1000px"}}>
+                <p className="container mt-5" style={{ maxWidth: "800px"}}>
                     <strong>They say a picture speaks volumes</strong>. At Hydro Squad, we believe in complete transparency, which is why we take detailed digital photos throughout every restaurant hood and kitchen exhaust cleaning. Once the job is finished, we share a link so our customers can easily view the results. Want to see the difference for yourself? Use the slider below to compare our 'before' and 'after' photos!
                 </p>
             </div>
             <br/><br/>
 
             {/* Carousel for the gallery */}
-            <div id="gallery" className="carousel slide carousel-fade mx-auto" data-bs-ride="carousel" style={{ maxWidth: "1000px", width: "100%"}}>
+            <div id="gallery" className="carousel slide carousel-fade mx-auto" data-bs-ride="carousel" style={{ maxWidth: "800px", width: "100%"}}>
                 {/* Indicators */}
                 <div className="carousel-indicators bg-primary.bg-gradient bg-dark">
                     <button type="button" data-bs-target="#gallery" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -113,6 +113,7 @@ export default function Gallery() {
                     <span className="sr-only"></span>
                 </a>
             </div>
+            <br/><br/>
         
         </>
     )
