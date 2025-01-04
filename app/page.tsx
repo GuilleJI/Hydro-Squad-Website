@@ -14,7 +14,8 @@ export default function Page() {
         style={{
           objectFit: 'cover',
           zIndex: -1,
-          filter: 'brightness(65%)'
+          filter: 'brightness(65%)',
+          minHeight: "100vh"
         }}
       />
     <br/><br/><br/>
