@@ -16,7 +16,8 @@ export default function Gallery() {
     return (
         <>
             <div className="bg-dark text-white">
-                <div className="container-fluid p-5 text white text-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", zIndex: -1 }}>
+                <div className="container-fluid p-5 text white text-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", maxHeight: "480px"}}>
+                    <br/><br/><br/><br/><br/>
                     <h1 className="text-white d-flex p-2">Our Photo Gallery</h1>
                     <p  className="text-white d-flex p-2">Before and After</p>
                 </div>

@@ -7,17 +7,18 @@ export default function Page() {
     <div>
       <Image
         src={bg}
+        className='img-fluid'
         fill
         alt='background'
-        sizes='100vw'
+        sizes='100%'
         style={{
           objectFit: 'cover',
           zIndex: -1,
           filter: 'brightness(65%)'
         }}
       />
-    <br/>
-    <div className='d-flex justify-content-center my-5'>
+    <br/><br/><br/>
+    <div className='d-flex justify-content-center my-5 py-5'>
       <div className='jumbotron my-5 px-5'> 
         <h1 className='display-6 text-white text-center fw-bold'>
           Professional Hood Cleaning for Kitchens That Mean Business

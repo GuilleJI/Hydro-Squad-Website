@@ -15,14 +15,14 @@ if(typeof window !== "undefined"){
 export default function Navbar() {
     return (
         // Navbar
-        <nav className="navbar navbar-expand-md navbar-light" style={{backgroundColor: 'rgba(56, 57, 58, 0.8)'}}>
+        <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{backgroundColor: 'rgba(56, 57, 58, 0.8)'}}>
             {/* Navbar brand */}
             <div className="container-fluid m-2">
                 <Image 
                     alt="Hydro Squad" 
-                    className="navbar-brand rounded-4 shadow-lg" 
+                    className="navbar-brand rounded-4 image-fluid" 
                     src={Lg}
-                    width="200" 
+                    width="180" 
                     height="120"
                 />
                 <button 
