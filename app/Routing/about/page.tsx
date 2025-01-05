@@ -9,7 +9,8 @@ export default function About() {
     return (
         <>
         {/*  About Us Page */}
-        <div className="body bg-dark text-white" style={{ minHeight: "100vh" }}>
+        <div className="body bg-dark text-white" style={{ minHeight: "100vh" }}> {/*Background color and text color */}
+            {/* Hero Section */}
             <div className="container-fluid p-5 text white text-start" style={{ backgroundImage: `url(${kitchen.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",maxHeight: "480px"}}>
                 <br/><br/><br/><br/><br/>
                 <h1 className="text-white d-flex py-5">About Hydro Squad</h1> 
@@ -19,10 +20,11 @@ export default function About() {
             <div className="container py-5">
                 <div className="row g-4">
                     {/* Cards for About Us Section */}
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <div className="card h-100 p-3 m-3 border border-4 border-primary"> 
+                    {/* Card 1 */}
+                     <div className="col-12 col-md-6 col-lg-4"> {/* Bootstrap Grid System */}
+                        <div className="card h-100 p-3 m-3 border border-4 border-primary"> {/* Bootstrap Card */}
                             <h5 className="card-title text-center py-3"><strong>Trusted Service Since 2015</strong></h5>
-                            <div className="p-3 bg-primary rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
+                            <div className="p-3 bg-primary rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}> 
                                 <Image
                                     alt="Hydro Squad Verified Badge"
                                     src={badge}
@@ -36,8 +38,9 @@ export default function About() {
                         </div>  
                     </div>
 
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <div className="card h-100 p-3 m-3 border border-4 border-primary">
+                    {/* Card 2 */}
+                     <div className="col-12 col-md-6 col-lg-4"> {/*Bootstrap Grid System */}
+                         <div className="card h-100 p-3 m-3 border border-4 border-primary"> {/* Bootstrap Card */}
                             <h5 className="card-title text-center py-3"><strong>Safety & Compliance First</strong></h5>
                             <div className="p-3 bg-primary rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
                             <Image 
@@ -53,8 +56,9 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <div className="card h-100 p-3 m-3 border border-4 border-primary">
+                    {/* Card 3 */}
+                    <div className="col-12 col-md-6 col-lg-4"> {/*Bootstrap Grid System */}
+                        <div className="card h-100 p-3 m-3 border border-4 border-primary"> {/* Bootstrap Card */}
                             <h5 className="card-title text-center py-3"><strong>Expert Service & Peace of Mind</strong></h5>
                             <div className="p-3 bg-primary rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
                                 <Image 
@@ -70,7 +74,9 @@ export default function About() {
                         </div>        
                     </div>
                 </div>
-            </div>         
+            </div>
+            
+                     
         </div>
         </>
     )
