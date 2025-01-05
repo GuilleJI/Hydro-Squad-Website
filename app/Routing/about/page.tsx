@@ -22,9 +22,9 @@ export default function About() {
                     {/* Cards for About Us Section */}
                     {/* Card 1 */}
                      <div className="col-12 col-md-6 col-lg-4"> {/* Bootstrap Grid System */}
-                        <div className="card h-100 p-3 m-3 border border-4 border-primary"> {/* Bootstrap Card */}
+                        <div className="card h-100 p-3 m-3 border border-4 border-light rounded-4 bg-secondary text-bg-secondary"> {/* Bootstrap Card */}
                             <h5 className="card-title text-center py-3"><strong>Trusted Service Since 2015</strong></h5>
-                            <div className="p-3 bg-primary rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}> 
+                            <div className="p-3 bg-light rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}> 
                                 <Image
                                     alt="Hydro Squad Verified Badge"
                                     src={badge}
@@ -40,9 +40,9 @@ export default function About() {
 
                     {/* Card 2 */}
                      <div className="col-12 col-md-6 col-lg-4"> {/*Bootstrap Grid System */}
-                         <div className="card h-100 p-3 m-3 border border-4 border-primary"> {/* Bootstrap Card */}
+                         <div className="card h-100 p-3 m-3 border border-4 border-light rounded-4 bg-secondary text-bg-secondary"> {/* Bootstrap Card */}
                             <h5 className="card-title text-center py-3"><strong>Safety & Compliance First</strong></h5>
-                            <div className="p-3 bg-primary rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
+                            <div className="p-3 bg-light rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
                             <Image 
                                 alt = "Safety Certificate"
                                 src={safety}
@@ -58,9 +58,9 @@ export default function About() {
 
                     {/* Card 3 */}
                     <div className="col-12 col-md-6 col-lg-4"> {/*Bootstrap Grid System */}
-                        <div className="card h-100 p-3 m-3 border border-4 border-primary"> {/* Bootstrap Card */}
+                        <div className="card h-100 p-3 m-3 border border-4 border-light rounded-4 bg-secondary text-bg-secondary"> {/* Bootstrap Card */}
                             <h5 className="card-title text-center py-3"><strong>Expert Service & Peace of Mind</strong></h5>
-                            <div className="p-3 bg-primary rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
+                            <div className="p-3 bg-light rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
                                 <Image 
                                     alt="Peace of Mind"
                                     src={mind}

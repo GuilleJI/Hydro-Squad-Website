@@ -19,7 +19,6 @@ export default function Gallery() {
                 <div className="container-fluid p-5 text white text-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", maxHeight: "480px"}}>
                     <br/><br/><br/><br/><br/>
                     <h1 className="text-white d-flex p-2">Our Photo Gallery</h1>
-                    <p  className="text-white d-flex p-2">Before and After</p>
                 </div>
                 <br/><br/>
                 <div>
@@ -32,7 +31,7 @@ export default function Gallery() {
                 {/* Carousel for the gallery */}
                 <div id="gallery" className="carousel slide carousel-fade mx-auto" data-bs-ride="carousel" style={{ maxWidth: "800px", width: "100%"}}>
                     {/* Indicators */}
-                    <div className="carousel-indicators bg-primary.bg-gradient bg-dark">
+                    <div className="carousel-indicators bg-primary.bg-gradient">
                         <button type="button" data-bs-target="#gallery" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#gallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#gallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -48,6 +47,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="Before"
                                 src={b4}
+                                style={{ filter: 'brightness(70%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">Before</h3>
@@ -58,6 +58,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="After"
                                 src={aft1}
+                                style={{ filter: 'brightness(70%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">After</h3>
@@ -68,6 +69,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="Before"
                                 src={b4_2}
+                                style={{ filter: 'brightness(70%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">Before</h3>
@@ -78,6 +80,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="After"
                                 src={aft2}
+                                style={{ filter: 'brightness(70%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">After</h3>
@@ -88,6 +91,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="Before"
                                 src={b4_3}
+                                style={{ filter: 'brightness(70%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">Before</h3>
@@ -98,6 +102,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="After"
                                 src={aft3}
+                                style={{ filter: 'brightness(70%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">After</h3>
@@ -105,11 +110,11 @@ export default function Gallery() {
                         </div>
                     </div>
                     {/* Carousel controls */}
-                    <a className="carousel-control-prev p-3 bg-light rounded-start-4 " href="#gallery" role="button" data-bs-slide="prev">
+                    <a className="carousel-control-prev p-3 bg-dark rounded-start-4 " href="#gallery" role="button" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
                         <span className="sr-only"></span>
                     </a>
-                    <a className="carousel-control-next p-3 bg-light rounded-end-4" href="#gallery" role="button" data-bs-slide="next">
+                    <a className="carousel-control-next p-3 bg-dark rounded-end-4" href="#gallery" role="button" data-bs-slide="next">
                         <span className="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
                         <span className="sr-only"></span>
                     </a>

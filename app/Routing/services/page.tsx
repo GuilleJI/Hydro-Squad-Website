@@ -10,7 +10,7 @@ export default function Services() {
     return (
         <>
             <div className="bg-dark text-white">
-                <div className="container-fluid p-5 bg-primary text white text-center" style={{ backgroundImage: `url(${bg.src})`,backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", maxHeight: "480px" }}>
+                <div className="container-fluid p-5 bg-primary text white text-center" style={{ backgroundImage: `url(${bg.src})`,backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", maxHeight: "480px"}}>
                     <br/><br/><br/><br/>
                     <h1 className="text-white d-flex py-5">Our Services</h1>
                     {/* <p  className="text-white d-flex p-2"></p> */}
@@ -23,9 +23,9 @@ export default function Services() {
                             <br/>
                             <p className="lead">Experience our top-tier commercial cleaning services, including kitchen hood and exhaust cleaning, as well as power washing, across Ontario (including GTA). We ensure your business adheres to all <strong>NFPA 94</strong> and fire Marshall regulations, providing you with peace of mind and a spotless environment. </p>
                             <br/><br/>
-                            <div className="text-center bg-light rounded-4 p-2">
+                            <div className="text-start ">
                                 <Image
-                                className="img-fluid"
+                                className="img-fluid bg-light p-4 rounded-4"
                                 alt="NFPA 94" 
                                 src={logo}
                                 width="300" 
@@ -37,7 +37,7 @@ export default function Services() {
 
                         </div>
                         <div className="col w-50 p-5 m-3">
-                            <div className="text-center">
+                            {/* <div className="text-center">
                                 <Image 
                                 className="rounded-4 img-fluid"
                                 alt="Hood Cleaning" 
@@ -45,9 +45,7 @@ export default function Services() {
                                 width="470" 
                                 height="300"
                                 />
-                            </div>
-                            <br/> 
-                            <br/>
+                            </div> */}
                             <h2><strong>Transform Your Kitchen with Our Professional Cleaning Services!</strong></h2>
                             <br/>
                             <ul className="list-inline">
