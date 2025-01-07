@@ -20,38 +20,40 @@ export default function Page() {
         }}
       />
     <br/><br/><br/>
-    <div className='d-flex justify-content-center my-5 py-5'>
-      <div className='jumbotron my-5 px-5'> 
-        <h1 className='display-6 text-white text-center fw-bold'>
-          Professional Hood Cleaning for Kitchens That Mean Business
-        </h1>
-        <br/>
-        <p className='lead text-center text-white px-5 mx-auto' style={{ maxWidth: '900px' }}>
-          Transform your kitchen into a clean, efficient workspace with expert exhaust hood cleaning. We deliver spotless results that keep your kitchen running smoothly and safely.
-        </p>
-        <div className='container text-center'>
-          <div className='col w-100 p-5 m-3'>
-            <Image
-              className='rounded-4 img-fluid item-center'
-              alt='Hood Cleaning'
-              src={hydro}
-              width='470'
-              height='300'
-            
-            />
+    <div className='container'>
+      <div className='row'>
+      
+        <div className='col-lg-7 text-white'>
+          <div className='content'>
+            <br/><br/><br/><br/><br/>
+            <h2>Professional Cleaning Services for Your Business</h2>
+            <p>Transform your kitchen into a clean, effient workspace with expert exhaust hood cleaning. We deliver spotless results that keep your kitchen running smoothly and sefely.</p>
           </div>
         </div>
-        {/* <hr className='my-4'/> */}
-        <p className='text-white text-center'>
-          Have questions about our kitchen exhaust cleaning services? Click the button below to reach out to us today!
-        </p>
-        <br/>
-        <p className='lead d-flex justify-content-center'>
-          <a className='btn btn-warning btn-lg border' href='/Routing/contact' role='button'>Reach out</a>
-        </p>
+        <div className='col-lg-5 text-white'>
+        <br/><br/><br/><br/><br/>
+          <div>
+            <h2>Get a Quote</h2>
+            <div></div>
+            <form method='post'>
+              <div></div>
+              <div className='row'>
+                <div className='col-lg-12'>
+                  <div className='form-group'>
+                    <p>
+                      <span>
+                        <input size={40} maxLength={400} className='form-control' aria-invalid='false' placeholder='Organization' type='text' name='organization' id='organization' />
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
+    </div>
 
-      </div>
     </div>
       
   )
