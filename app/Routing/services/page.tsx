@@ -61,7 +61,7 @@ export default function Services() {
                                 <br/><br/>
                                 <li className="lead list-inline-item"><strong className="text-danger">💧 Grease Trap Cleaning</strong> - Avoid clogs, odors, and compliance issues with expert grease trap cleaning and maintenance that keeps your kitchen running smoothly.</li>
                             </ul> */}
-                            <div className="card mb-4 rounded-4" style={{maxWidth: "540px"}}>
+                            <div className="card mb-4 rounded-4 p-2" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
                                     <div className="col-md-4 text-center">
                                         <Image
@@ -72,15 +72,15 @@ export default function Services() {
                                         height="200"
                                         />
                                     </div>
-                                    <div className="col-md-8">
-                                        <div className="card-body p-3">
+                                    <div className="col-md-8 bg-danger rounded-4">
+                                        <div className="card-body p-3 text-white">
                                             <h5 className="card-title"><strong>Commercial Kitchen Cleaning</strong></h5>
                                             <p className="card-text">We Keep your kitchen spotless, safe, and up to code with our deep-cleaning services for all surfaces, equipment, and workspaces.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="card mb-4 rounded-4" style={{maxWidth: "540px"}}>
+                            <div className="card mb-4 rounded-4 p-2" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
                                     <div className="col-md-4 text-center">
                                         <Image
@@ -91,15 +91,15 @@ export default function Services() {
                                         height="200"
                                         />
                                     </div>
-                                    <div className="col-md-8">
-                                        <div className="card-body p-3">
+                                    <div className="col-md-8 bg-danger rounded-4">
+                                        <div className="card-body p-3 text-white">
                                             <h5 className="card-title"><strong>Filter Cleaning & Maintenance</strong></h5>
                                             <p className="card-text">Breathe easier and stay fire-safe! We clean and maintain filters to improve air quality and prevent grease buildup.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="card mb-4 rounded-4" style={{maxWidth: "540px"}}>
+                            <div className="card mb-4 rounded-4 p-2" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
                                     <div className="col-md-4 text-center">
                                         <Image
@@ -110,15 +110,15 @@ export default function Services() {
                                         height="200"
                                         />
                                     </div>
-                                    <div className="col-md-8">
-                                        <div className="card-body p-3">
+                                    <div className="col-md-8 bg-danger rounded-4">
+                                        <div className="card-body p-3 text-white">
                                             <h5 className="card-title"><strong>Hood, Vent & Exhaust Cleaning</strong></h5>
                                             <p className="card-text">Eliminate grease and fire hazards with our thorough cleaning of hoods, vents, and exhaust systems—ensuring proper ventilation and safety.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="card mb-4 rounded-4" style={{maxWidth: "540px"}}>
+                            <div className="card mb-4 rounded-4 p-2" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
                                     <div className="col-md-4 text-center">
                                         <Image
@@ -129,8 +129,8 @@ export default function Services() {
                                         height="200"
                                         />
                                     </div>
-                                    <div className="col-md-8">
-                                        <div className="card-body p-3">
+                                    <div className="col-md-8 bg-danger rounded-4">
+                                        <div className="card-body p-3 text-white">
                                             <h5 className="card-title"><strong>Grease Trap Cleaning</strong></h5>
                                             <p className="card-text">Avoid clogs, odors, and compliance issues with expert grease trap cleaning and maintenance that keeps your kitchen running smoothly.</p>
                                         </div>
