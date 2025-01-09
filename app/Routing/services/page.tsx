@@ -35,32 +35,12 @@ export default function Services() {
                                 width="300" 
                                 height="350"
                                 />
-                            </div>
-                            
+                            </div>                           
                             <br/>
-
                         </div>
                         <div className="col w-50 p-5 m-3">
-                            {/* <div className="text-center">
-                                <Image 
-                                className="rounded-4 img-fluid"
-                                alt="Hood Cleaning" 
-                                src={hood}
-                                width="470" 
-                                height="300"
-                                />
-                            </div> */}
                             <h2><strong>Transform Your Kitchen with Our Professional Cleaning Services!</strong></h2>
                             <br/>
-                            {/* <ul className="list-inline">
-                                <li className=" lead list-inline-item"><strong className="text-danger">✨ Commercial Kitchen Cleaning</strong> - We Keep your kitchen spotless, safe, and up to code with our deep-cleaning services for all surfaces, equipment, and workspaces. </li>
-                                <br/><br/>
-                                <li className="lead list-inline-item"><strong className="text-danger">🌬️ Filter Cleaning & Maintenance</strong> -Breathe easier and stay fire-safe! We clean and maintain filters to improve air quality and prevent grease buildup.</li>
-                                <br/><br/>
-                                <li className="lead list-inline-item"><strong className="text-danger">🔥 Hood, Vent & Exhaust Cleaning</strong> - Eliminate grease and fire hazards with our thorough cleaning of hoods, vents, and exhaust systems—ensuring proper ventilation and safety.</li>
-                                <br/><br/>
-                                <li className="lead list-inline-item"><strong className="text-danger">💧 Grease Trap Cleaning</strong> - Avoid clogs, odors, and compliance issues with expert grease trap cleaning and maintenance that keeps your kitchen running smoothly.</li>
-                            </ul> */}
                             <div className="card mb-4 rounded-4 p-2" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
                                     <div className="col-lg-4 text-center">
