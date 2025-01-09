@@ -47,7 +47,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="Before"
                                 src={b4}
-                                style={{ filter: 'brightness(70%)'}}
+                                style={{ filter: 'brightness(75%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">Before</h3>
@@ -58,7 +58,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="After"
                                 src={aft1}
-                                style={{ filter: 'brightness(70%)'}}
+                                style={{ filter: 'brightness(75%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">After</h3>
@@ -69,7 +69,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="Before"
                                 src={b4_2}
-                                style={{ filter: 'brightness(70%)'}}
+                                style={{ filter: 'brightness(75%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">Before</h3>
@@ -80,7 +80,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="After"
                                 src={aft2}
-                                style={{ filter: 'brightness(70%)'}}
+                                style={{ filter: 'brightness(75%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">After</h3>
@@ -91,7 +91,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="Before"
                                 src={b4_3}
-                                style={{ filter: 'brightness(70%)'}}
+                                style={{ filter: 'brightness(75%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">Before</h3>
@@ -102,7 +102,7 @@ export default function Gallery() {
                                 className="d-block mx-auto img-fluid"
                                 alt="After"
                                 src={aft3}
-                                style={{ filter: 'brightness(70%)'}}
+                                style={{ filter: 'brightness(75%)'}}
                             />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3 className="bg-black  bg-opacity-50">After</h3>
