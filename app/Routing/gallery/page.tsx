@@ -26,7 +26,13 @@ export default function Gallery() {
                         <strong>They say a picture speaks volumes</strong>. At Hydro Squad, we believe in complete transparency, which is why we take detailed digital photos throughout every restaurant hood and kitchen exhaust cleaning. Once the job is finished, we share a link so our customers can easily view the results. Want to see the difference for yourself? Use the slider below to compare our 'before' and 'after' photos!
                     </p>
                 </div>
-                <br/><br/>
+                <br/>
+                {/* Before/After section */}
+                <div className="p-5 pb-5">     
+                    <div className="text-center">
+                        <h2><strong><span className="border-bottom border-5 border-primary p-3">Before/After</span></strong></h2>
+                    </div>    
+                </div>
 
                 {/* Carousel for the gallery */}
                 <div id="gallery" className="carousel slide carousel-fade mx-auto" data-bs-ride="carousel" style={{ maxWidth: "800px", width: "100%"}}>
