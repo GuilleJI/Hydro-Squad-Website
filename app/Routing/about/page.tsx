@@ -85,10 +85,10 @@ export default function About() {
                 </div>
             <div className="p-5 pb-5">     
                 <div className="text-center">
-                    <h2><strong>Our Valued Loyal Customers...</strong></h2>
+                    <h2><strong><span className="border-bottom border-5 border-primary p-3">Our Valued Loyal Customers...</span></strong></h2>
                 </div>    
             </div>
-                <div className="container p-4 text-center bg-light rounded-5">
+                <div className="container p-5 text-center bg-light rounded-5">
                     <div className="row row-md g-5 ">
                         
                         <div className="col-md">
@@ -111,7 +111,7 @@ export default function About() {
                             <Image 
                                 src={popeyes}
                                 alt="Popeyes"
-                                width="215"
+                                width="210"
                                 height="200"
                             />
                         </div>
