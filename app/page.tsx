@@ -35,7 +35,7 @@ export default function Page() {
           </div>
            <div className='col-sm-5 text-white'> {/*Add a column for the form */}
           <br/><br/><br/><br/><br/>
-             <div className='bg-primary p-4 rounded-5'> {/*Add a background color to the form */}
+             <div className='p-4 rounded-5' style={{backgroundColor: 'rgba(5, 59, 114, 0.8)'}}> {/*Add a background color to the form */}
               <h2 className='p-2'>Get a Quote</h2>
               {/* Add a form to collect user information */}
               <form method='post'>
