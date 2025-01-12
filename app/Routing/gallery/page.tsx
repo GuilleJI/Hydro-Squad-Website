@@ -9,7 +9,7 @@ import b4_3 from "../../images/Before Cleaning - Copy.jpg";
 import aft3 from "../../images/After cleaning - Copy.jpg";
 import bg from "../../images/Kitchen.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import "../gallery/carousel.css";
+// import "../gallery/carousel.css";
 
 
 export default function Gallery() {
