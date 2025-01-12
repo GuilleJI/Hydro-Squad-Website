@@ -91,7 +91,7 @@ export default function About() {
                     <div className="border-top border-5 my-3" style={{ width: "375px" }}></div>
                 </div>
             </div>
-                <div className="container p-2">
+                <div className="container p-3">
                     <div className="container p-5 text-center bg-light rounded-5">
                         <div className="row col-md row-md-4 g-5 ">
                             
@@ -99,31 +99,31 @@ export default function About() {
                                 <Image 
                                     src={tim}
                                     alt="Tim Hortons"
-                                    width="200"
-                                    height="180"
+                                    width="180"
+                                    height="160"
                                 />
                             </div>
                             <div className="col-md">
                                 <Image 
                                     src={churchChicken}
                                     alt="Church Chicken"
-                                    width="210"
-                                    height="180"
+                                    width="190"
+                                    height="160"
                                 />
                             </div>
                             <div className="col-md">
                                 <Image 
                                     src={popeyes}
                                     alt="Popeyes"
-                                    width="180"
-                                    height="180"
+                                    width="160"
+                                    height="160"
                                 />
                             </div>
                             <div className="col-md">
                                 <Image 
                                     src={PizzaHut}
                                     alt="Pizza Hut"
-                                    width="230"
+                                    width="210"
                                     height="160"
                                 />
                             </div>
@@ -131,8 +131,8 @@ export default function About() {
                                 <Image 
                                     src={PapaJohns}
                                     alt="Papa Johns"
-                                    width="220"
-                                    height="140"
+                                    width="200"
+                                    height="120"
                                 />
                             </div>
                             <div className="col-md">
@@ -147,16 +147,16 @@ export default function About() {
                                 <Image 
                                     src={pizzaPizza}
                                     alt="Pizza Pizza"
-                                    width="210"
-                                    height="180"
+                                    width="190"
+                                    height="160"
                                 />
                             </div>
                             <div className="col-md">
                                 <Image 
                                     src={dominos}
                                     alt="Dominos"
-                                    width="210"
-                                    height="180"
+                                    width="190"
+                                    height="160"
                                 />
                             </div>
                         </div>
