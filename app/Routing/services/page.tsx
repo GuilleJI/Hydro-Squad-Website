@@ -96,7 +96,7 @@ export default function Services() {
                                     <div className="col-lg-8 bg-danger rounded-4">
                                         <div className="card-body p-3 text-white">
                                             <h6 className="card-title"><strong>Continuing with safety in mind,Hood, Vent & Exhaust Cleaning</strong></h6>
-                                            <p className="card-text">We prioritize your kitchen's safety and efficiency. Our thorough cleaning of hoods, vents, and exhaust systems tackles grease buildup and fire risks head-on, ensuring your establishment benefits from proper ventilation and a secure atmosphere.</p>
+                                            <p className="card-text">We also prioritize your kitchen's safety and efficiency. Our thorough cleaning of hoods, vents, and exhaust systems tackles grease buildup and fire risks head-on, ensuring your establishment benefits from proper ventilation and a secure atmosphere.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ export default function Services() {
                                     <div className="col-lg-8 bg-danger rounded-4">
                                         <div className="card-body p-3 text-white">
                                             <h6 className="card-title"><strong>To complete the cycle of kitchen maintenance,Grease Trap Cleaning</strong></h6>
-                                            <p className="card-text">We recognize how vital it is for your kitchen to run both safely and smoothly. Our cleaning service for grease traps removes buildup, preventing blockages and mitigating fire risks, thus maintaining your kitchen's health and safety.</p>
+                                            <p className="card-text">We ultimately recognize how vital it is for your kitchen to run both safely and smoothly. Our cleaning service for grease traps removes buildup, preventing blockages and mitigating fire risks, thus maintaining your kitchen's health and safety.</p>
                                         </div>
                                     </div>
                                 </div>

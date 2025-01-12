@@ -99,7 +99,7 @@ export default function About() {
                                 <Image 
                                     src={tim}
                                     alt="Tim Hortons"
-                                    width="205"
+                                    width="200"
                                     height="180"
                                 />
                             </div>
@@ -115,7 +115,7 @@ export default function About() {
                                 <Image 
                                     src={popeyes}
                                     alt="Popeyes"
-                                    width="200"
+                                    width="180"
                                     height="180"
                                 />
                             </div>
