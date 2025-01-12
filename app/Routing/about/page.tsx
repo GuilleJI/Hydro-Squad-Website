@@ -83,6 +83,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+            {/*  Our Valued Loyal Customers Section */}
             <div className="p-5 pb-5">     
                 <div className="text-center">
                     <h2><strong>Our Valued Loyal Customers</strong></h2>
@@ -94,7 +95,6 @@ export default function About() {
                 <div className="container p-4">
                     <div className="container p-5 text-center bg-light rounded-5">
                         <div className="row col-md row-md-4 g-5 ">
-                            
                             <div className="col-md">
                                 <Image 
                                     src={tim}
