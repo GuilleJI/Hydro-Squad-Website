@@ -19,9 +19,12 @@ export default function About() {
         {/*  About Us Page */}
             <div className="body bg-dark text-white pb-5" style={{ minHeight: "100vh" }}> {/*Background color and text color */}
                 {/* Hero Section */}
-                <div className="container-fluid p-5 text white text-start" style={{ backgroundImage: `url(${kitchen.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",maxHeight: "480px"}}>
+                <div className="container-fluid position-relative p-5 text white text-start" style={{ backgroundImage: `url(${kitchen.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",maxHeight: "480px"}}> {/*Background image for the header */}
+                    <div className="position-absolute top-0 start-0 w-100 h-100" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}></div> {/*Added to make the text more visible and position-absolute top-0 start-0 w-100 h-100 was added to make the background color cover the whole image */}
                     <br/><br/><br/><br/><br/>
-                    <h1 className="text-white d-flex py-5">About Hydro Squad</h1> 
+                    <div className="position-relative"> {/* Added a div to make the text more visible */}
+                        <h1 className="text-white d-flex py-5">About Hydro Squad</h1> 
+                    </div>
                 </div>
                 <br/><br/>
                 {/*  About Us Section */}
