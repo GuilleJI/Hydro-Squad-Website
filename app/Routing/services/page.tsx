@@ -13,10 +13,14 @@ export default function Services() {
     return (
         <>
             <div className="bg-dark text-white">
-                <div className="container-fluid p-5 text white text-center" style={{ backgroundImage: `url(${bg.src})`,backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", maxHeight: "480px"}}>
-                    <br/><br/><br/><br/>
-                    <h1 className="text-white d-flex py-5">Our Services</h1>
-                    {/* <p  className="text-white d-flex p-2"></p> */}
+                {/* Background image for the header */}
+                <div className="container-fluid p-5 text-white text-center position-relative" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", maxHeight: "480px" }}> {/*position-relative was added because the text was not visible*/}
+                    <div className="position-absolute top-0 start-0 w-100 h-100" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}></div> {/*Added to make the text more visible and top-0 start-0 w-100 h-100 was added to make the background color cover the whole image */}  
+                    {/* Added a div to make the text more visible */} 
+                    <div className="position-relative">
+                        <br/><br/><br/><br/>
+                        <h1 className="text-white d-flex py-5">Our Services</h1>
+                    </div>
                 </div>
 
                 <div className="container">
