@@ -91,7 +91,7 @@ export default function About() {
                     <div className="border-top border-5 my-3" style={{ width: "375px" }}></div>
                 </div>
             </div>
-                <div className="container p-3">
+                <div className="container p-4">
                     <div className="container p-5 text-center bg-light rounded-5">
                         <div className="row col-md row-md-4 g-5 ">
                             
