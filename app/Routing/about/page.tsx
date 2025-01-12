@@ -91,72 +91,74 @@ export default function About() {
                     <div className="border-top border-5 my-3" style={{ width: "375px" }}></div>
                 </div>
             </div>
-                <div className="container p-5 text-center bg-light rounded-5">
-                    <div className="row row-md g-5 ">
-                        
-                        <div className="col-md">
-                            <Image 
-                                src={tim}
-                                alt="Tim Hortons"
-                                width="225"
-                                height="200"
-                            />
-                        </div>
-                        <div className="col-md">
-                            <Image 
-                                src={churchChicken}
-                                alt="Church Chicken"
-                                width="230"
-                                height="200"
-                            />
-                        </div>
-                        <div className="col-md">
-                            <Image 
-                                src={popeyes}
-                                alt="Popeyes"
-                                width="210"
-                                height="200"
-                            />
-                        </div>
-                        <div className="col-md">
-                            <Image 
-                                src={PizzaHut}
-                                alt="Pizza Hut"
-                                width="270"
-                                height="180"
-                            />
-                        </div>
-                        <div className="col-md">
-                            <Image 
-                                src={PapaJohns}
-                                alt="Papa Johns"
-                                width="260"
-                                height="180"
-                            />
-                        </div>
-                        <div className="col-md">
-                            <Image 
-                                src={Burrito}
-                                alt="Burrito Boyz"
-                                width="230"
-                                height="200"
-                            />
-                        </div>
-                        <div className="col-md">
-                            <Image 
-                                src={pizzaPizza}
-                                alt="Pizza Pizza"
-                                width="230"
-                                height="200"
-                            />
-                        </div>
-                        <div className="col-md">
-                            <Image 
-                                src={dominos}
-                                alt="Dominos"
-                                width="230"
-                                height="200"
-                            />
+                <div className="container p-2">
+                    <div className="container p-5 text-center bg-light rounded-5">
+                        <div className="row col-md row-md-4 g-5 ">
+                            
+                            <div className="col-md">
+                                <Image 
+                                    src={tim}
+                                    alt="Tim Hortons"
+                                    width="205"
+                                    height="180"
+                                />
+                            </div>
+                            <div className="col-md">
+                                <Image 
+                                    src={churchChicken}
+                                    alt="Church Chicken"
+                                    width="210"
+                                    height="180"
+                                />
+                            </div>
+                            <div className="col-md">
+                                <Image 
+                                    src={popeyes}
+                                    alt="Popeyes"
+                                    width="200"
+                                    height="180"
+                                />
+                            </div>
+                            <div className="col-md">
+                                <Image 
+                                    src={PizzaHut}
+                                    alt="Pizza Hut"
+                                    width="230"
+                                    height="160"
+                                />
+                            </div>
+                            <div className="col-md">
+                                <Image 
+                                    src={PapaJohns}
+                                    alt="Papa Johns"
+                                    width="220"
+                                    height="140"
+                                />
+                            </div>
+                            <div className="col-md">
+                                <Image 
+                                    src={Burrito}
+                                    alt="Burrito Boyz"
+                                    width="210"
+                                    height="180"
+                                />
+                            </div>
+                            <div className="col-md">
+                                <Image 
+                                    src={pizzaPizza}
+                                    alt="Pizza Pizza"
+                                    width="210"
+                                    height="180"
+                                />
+                            </div>
+                            <div className="col-md">
+                                <Image 
+                                    src={dominos}
+                                    alt="Dominos"
+                                    width="210"
+                                    height="180"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
