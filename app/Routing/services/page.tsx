@@ -27,7 +27,7 @@ export default function Services() {
                     <div className="row">
                         <div className="col w-50 p-5 m-3">
                             <h2 className="pb-4"><strong>Professional Cleaning Services for Your Business</strong></h2>
-                            <div className="border-top border-4 my-3"></div>
+                            <div className="border-top border-4 my-3 border-primary"></div>
                             <br/>
                             <p className="lead fs-4">
                                 Elevate your business operations with our top-tier commercial cleaning services available across Ontario, including the Greater Toronto Area (GTA). Our dedication to excellence ensures strict adherence to <strong>NFPA 96 and Fire Marshal standards</strong>, safeguarding your establishment against hazards while maintaining an environment of utmost cleanliness. Experience the professional advantage of a spotless, compliant workplace with Hydro Squad!
@@ -46,7 +46,7 @@ export default function Services() {
                         </div>
                         <div className="col w-50 p-5 m-3">
                             <h2 className="pb-4"><strong>Transform Your Kitchen with Our Professional Cleaning Services!</strong></h2>
-                            <div className="border-top border-5 my-3"></div>
+                            <div className="border-top border-5 my-3 border-primary"></div>
                             <br/>
                             <div className="card mb-4 rounded-4 p-2" style={{maxWidth: "540px"}}>
                                 <div className="row g-0">
