@@ -21,12 +21,6 @@ export default function Gallery() {
                     <h1 className="text-white d-flex p-2">Our Gallery</h1>
                 </div>
                 <br/><br/>
-                <div>
-                    <p className=" lead container mt-5" style={{ maxWidth: "800px"}}>
-                        <strong>They say a picture speaks volumes</strong>. At Hydro Squad, we believe in complete transparency, which is why we take detailed digital photos throughout every restaurant hood and kitchen exhaust cleaning. Once the job is finished, we share a link so our customers can easily view the results. Want to see the difference for yourself? Use the slider below to compare our 'before' and 'after' photos!
-                    </p>
-                </div>
-                <br/>
                 {/* Before/After section */}
                 <div className="p-5 pb-5">     
                     <div className="text-center">
@@ -125,6 +119,13 @@ export default function Gallery() {
                         <span className="sr-only"></span>
                     </a>
                 </div>
+                <br/>
+                <div>
+                    <p className=" lead container mt-5" style={{ maxWidth: "800px"}}>
+                        See the transformation with Hydro Squad. We capture every stage of your restaurant hood and kitchen exhaust cleaning in detailed digital photos. Swipe through our Before and After pictures to witness the change - from start to finish. Transparency is our promise; clarity is your result.
+                    </p>
+                </div>
+                <br/>
                 <br/><br/>
             </div>    
         </>

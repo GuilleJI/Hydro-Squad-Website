@@ -12,6 +12,7 @@ import PapaJohns from "../../images/Papa-Johns.png"
 import Burrito from "../../images/Burrito-Boyz-Logo-300x276.png"
 import pizzaPizza from "../../images/Pizza Pizza.png"
 import dominos from "../../images/dominos-logo-400x200-png.png"
+import team from "../../images/FB_IMG_1711993919299.jpg"
 
 export default function About() {
     return (
@@ -44,7 +45,9 @@ export default function About() {
                                     />
                                 </div>
                                 <div className="card-body p-2">
-                                    <p className="card-text py-2"><strong>Established in 2015</strong>, we've built our reputation on trust and customer satisfaction. Serving all of southern Ontario, we specialize in <strong>top-tier cleaning services</strong> for restaurants, nursing homes, hospitals, schools, mall food courts, and commercial ovens. No matter the job, we've <strong>commited to delivering excellence</strong>.</p>
+                                    <p className="card-text py-2"><strong>Since starting Hydro Squad back in 2015</strong>, we've been all about earning your trust and making sure you're happy with our work. We cover all of southern Ontario, focusing on giving the best clean to places like restaurants, nursing homes, hospitals, schools, mall food courts, and those tough commercial ovens. No job is too big or small for us - we're dedicated to doing it right!</p>
+                                    
+                                    
                                 </div>
                             </div>  
                         </div>
@@ -86,15 +89,43 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-            {/*  Our Valued Loyal Customers Section */}
-            <div className="p-5 pb-5">     
-                <div className="text-center">
-                    <h2><strong>Our Valued Loyal Customers</strong></h2>
-                </div> 
-                <div className="d-flex justify-content-center">
-                    <div className="border-top border-5 my-3" style={{ width: "375px" }}></div>
+
+                <div className="container p-4">
+                    <div className="row">
+                        <div className="col-12 col-md-6 p-5">
+                            <h2>
+                                Why Choose Hydro Squad?
+                            </h2>
+                            <div className="d-flex justify-content-start">
+                                <div className="border-top border-5 my-3" style={{ width: "375px" }}>
+                                </div>
+                            </div>
+                            <br/>
+                            <p className="lead">At Hydro Squad, we don't just clean; we care. With a genuine passion for what we do, we've mastered cleaning across various settings, always pushing for innovation with eco-friendly tech. We're transparent, showing you our work through photos, because we believe in honesty over hype. Choosing us means opting for a team genuinely committed to your satisfaction, where every service reflects our dedication to doing things right.</p>
+                        </div>
+                        <div className="col-12 col-md-6 p-5">
+                            <div className="text-center">
+                                <Image
+                                    className="img-fluid rounded-4"
+                                    alt="Our Team" 
+                                    src={team}
+                                    width="800" 
+                                    height="850"
+                                    layout="responsive"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            {/*  Our Valued Loyal Customers Section */}
+                <div className="p-5 pb-5">     
+                    <div className="text-center">
+                        <h2><strong>Our Valued Loyal Customers</strong></h2>
+                    </div> 
+                    <div className="d-flex justify-content-center">
+                        <div className="border-top border-5 my-3" style={{ width: "375px" }}></div>
+                    </div>
+                </div>
                 <div className="container p-4">
                     <div className="container p-5 text-center bg-light rounded-5">
                         <div className="row col-md row-md-4 g-5 ">
