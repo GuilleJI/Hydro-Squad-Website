@@ -19,60 +19,60 @@ export default function Contact() {
                         <h3>Receive $100 Off your first kitchen exhaust service</h3>
                     </div>
                     <br/>
-                    <form className="p-5">
-                        {/* 2 column grid layout with text inputs for the first and last names  */}
-                        <div className="row mb-4">
-                            <div className="col">
-                                <div className="form-outline">
-                                    <input type="text" id="Name" className="form-control" placeholder="First Name"/>
-                                    <label className="form-label" form="Name">First Name</label>
+                    <div className="p-4">
+                        <form className="p-3">
+                            {/* 2 column grid layout with text inputs for the first and last names  */}
+                            <div className="row mb-4">
+                                <div className="col">
+                                    <div className="form-outline">
+                                        <input type="text" id="Name" className="form-control" placeholder="First Name"/>
+                                        <label className="form-label" form="Name">First Name</label>
+                                    </div>
+                                </div>
+                                <div className="col">
+                                    <div className="form-outline">
+                                        <input type="text" id="LastName" className="form-control" placeholder="Last Name"/>
+                                        <label className="form-label" form="LastName">Last Name</label>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col">
-                                <div className="form-outline">
-                                    <input type="text" id="LastName" className="form-control" placeholder="Last Name"/>
-                                    <label className="form-label" form="LastName">Last Name</label>
-                                </div>
+
+                            {/* Text input */}
+                            <div className="form-outline mb-4">
+                                <input type="text" id="Company" className="form-control" placeholder="Company Name"/>
+                                <label className="form-label" form="Company">Company Name</label>
                             </div>
-                        </div>
 
-                        {/* Text input */}
-                        <div className="form-outline mb-4">
-                            <input type="text" id="Company" className="form-control" placeholder="Company Name"/>
-                            <label className="form-label" form="Company">Company Name</label>
-                        </div>
+                            {/* Text input */}
+                            <div className="form-outline mb-4">
+                                <input type="text" id="Address" className="form-control" placeholder="Address"/>
+                                <label className="form-label" form="Address">Address</label>
+                            </div>
 
-                        {/* Text input */}
-                        <div className="form-outline mb-4">
-                            <input type="text" id="Address" className="form-control" placeholder="Address"/>
-                            <label className="form-label" form="Address">Address</label>
-                        </div>
+                            {/* Email input */}
+                            <div className="form-outline mb-4">
+                                <input type="email" id="Email" className="form-control" placeholder="Email"/>
+                                <label className="form-label" form="Email">Email</label>
+                            </div>
 
-                        {/* Email input */}
-                        <div className="form-outline mb-4">
-                            <input type="email" id="Email" className="form-control" placeholder="Email"/>
-                            <label className="form-label" form="Email">Email</label>
-                        </div>
+                            {/* Number input  */}
+                            <div className="form-outline mb-4">
+                                <input type="number" id="Phone" className="form-control" placeholder="Phone"/>
+                                <label className="form-label" form="Phone">Phone</label>
+                            </div>
+                            
+                            {/* Message input */}
+                            <div className="form-outline mb-4">
+                                <textarea className="form-control" id="Message" rows={4} placeholder="Your message"></textarea>
+                                <label className="form-label" htmlFor="Message">Message</label>
+                            </div>
 
-                        {/* Number input  */}
-                        <div className="form-outline mb-4">
-                            <input type="number" id="Phone" className="form-control" placeholder="Phone"/>
-                            <label className="form-label" form="Phone">Phone</label>
-                        </div>
-                        
-                        {/* Message input */}
-                        <div className="form-outline mb-4">
-                            <textarea className="form-control" id="Message" rows={4} placeholder="Your message"></textarea>
-                            <label className="form-label" htmlFor="Message">Message</label>
-                        </div>
+                            {/* Submit button */}
+                            <button type="button" className="btn btn-danger btn-block mb-4">Submit</button>
 
-                        {/* Submit button */}
-                        <button type="button" className="btn btn-danger btn-block mb-4">Submit</button>
-
-                    </form>
+                        </form>
+                    </div>
                 </div>
-                
-
             </div>
         
         </>
