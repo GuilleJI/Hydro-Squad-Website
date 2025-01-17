@@ -6,7 +6,7 @@ import { Loader} from '@googlemaps/js-api-loader'; // Import the Loader class fr
 
 export function Map() {
 
-    const mapRef = React.useRef(null); // Create a reference to the map
+    const mapRef = React.useRef<HTMLDivElement>(null); // Create a reference to the map
 
     // useEffect hook to run code after the component has rendered
     useEffect(() => {
@@ -36,11 +36,15 @@ export function Map() {
                 mapId: 'MY_NEXTJS_MAPID'
             }
 
+            // Create a new map object for the map reference
+            const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
+
         }
         initMap(); // Call the function to initialize the map
     },[]);
 
     return (
-        <h1>Map</h1>
+        // Return the map reference
+        <div style={{ height: '600px'}} ref={mapRef}/>
     )
 }
