@@ -1,6 +1,5 @@
 "use client"; 
 
-import { init } from 'next/dist/compiled/webpack/webpack';
 import React, { useEffect } from 'react'; // Import the useEffect hook from React
 import { Loader} from '@googlemaps/js-api-loader'; // Import the Loader class from the Google Maps JavaScript API
 
@@ -17,7 +16,7 @@ export function Map() {
 
             // Create a new Loader object to load the Google Maps JavaScript API
             const loader = new Loader({
-                apiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY as string, // Pass the API key as a prop to the Loader class
+                apiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY as string , //Pass the API key as a prop to the Loader class
                 version: "weekly", // Specify the version of the API to use
             });
 
