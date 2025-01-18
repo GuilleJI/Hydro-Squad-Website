@@ -12,7 +12,6 @@ export function Map() {
 
         // Function to initialize the map..async is used to make the function asynchronous because it will take some time to load the map and we don't want to block the rendering of the component
         const initMap = async () => {
-            console.log('map init'); // Log a message to the console for testing purposes
 
             // Create a new Loader object to load the Google Maps JavaScript API
             const loader = new Loader({
@@ -20,7 +19,11 @@ export function Map() {
                 version: "weekly", // Specify the version of the API to use
             });
 
-            const { Map } = await loader.importLibrary('maps'); // Import the Map class from the Google Maps JavaScript API..await is used to wait for the map to load
+            // Import the Map class from the Google Maps JavaScript API..await is used to wait for the map to load
+            const { Map } = await loader.importLibrary('maps'); 
+
+            // Import the Marker class from the Google Maps JavaScript API
+            const { Marker } = await loader.importLibrary('marker') as google.maps.MarkerLibrary;
 
             // Create a new map object for the map reference
             const position = {
@@ -35,8 +38,14 @@ export function Map() {
                 mapId: 'MY_NEXTJS_MAPID'
             }
 
-            // Create a new map object for the map reference
+            // Create a new map object for the map reference or setup the map
             const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
+
+            // put up a marker
+            const marker = new Marker ({
+                map: map, 
+                position: position
+            });
 
         }
         initMap(); // Call the function to initialize the map
