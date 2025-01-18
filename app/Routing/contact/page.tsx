@@ -18,7 +18,7 @@ export default function Contact() {
                 </div>
                 <br/><br/>
                 {/* Form for the contact page */}
-                <div className="container p-5 bg-primary">
+                <div className="container p-5 bg-secondary">
                     <div className="container pt-3 text-white bg-dark p-3 text-center">
                         <h4>Schedule your Free Estimate</h4>
                         <h3>Receive $100 Off your first kitchen exhaust service</h3>
@@ -30,18 +30,18 @@ export default function Contact() {
                                 <h4 className="font-weight-bold pb-1">Request a Quote</h4>
                                 <p>Fill out the form below and we will contact you as soon as possible!</p>
                             </div>
-                            <form className="container p-3">
+                            <form className="container p-3 ">
                             {/* 2 column grid layout with text inputs for the first and last names  */}
                                 <div className="row mb-4">
                                     <div className="col">
-                                        <div className="form-outline">
-                                            <input type="text" id="Name" className="form-control" placeholder="First Name"/>
+                                        <div className="form-outline ">
+                                            <input type="text" id="Name" className="form-control border-2 border-dark" placeholder="First Name"/>
                                             <label className="form-label" form="Name">First Name</label>
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="form-outline">
-                                            <input type="text" id="LastName" className="form-control" placeholder="Last Name"/>
+                                            <input type="text" id="LastName" className="form-control border-2 border-dark" placeholder="Last Name"/>
                                             <label className="form-label" form="LastName">Last Name</label>
                                         </div>
                                     </div>
@@ -49,30 +49,30 @@ export default function Contact() {
 
                             {/* Text input */}
                                 <div className="form-outline mb-4">
-                                    <input type="text" id="Company" className="form-control" placeholder="Company Name"/>
+                                    <input type="text" id="Company" className="form-control border-2 border-dark" placeholder="Company Name"/>
                                     <label className="form-label" form="Company">Company Name</label>
                                 </div>
 
                             {/* Email input */}
                                 <div className="form-outline mb-4">
-                                    <input type="email" id="Email" className="form-control" placeholder="Email"/>
+                                    <input type="email" id="Email" className="form-control border-2 border-dark" placeholder="Email"/>
                                     <label className="form-label" form="Email">Email</label>
                                 </div>
 
                             {/* Number input  */}
                                 <div className="form-outline mb-4">
-                                    <input type="number" id="Phone" className="form-control" placeholder="Phone"/>
+                                    <input type="number" id="Phone" className="form-control border-2 border-dark" placeholder="Phone"/>
                                     <label className="form-label" form="Phone">Phone</label>
                                 </div>
                             
                             {/* Message input */}
                                 <div className="form-outline mb-4">
-                                    <textarea className="form-control" id="Message" rows={4} placeholder="Your message"></textarea>
+                                    <textarea className="form-control border-2 border-dark" id="Message" rows={4} placeholder="Your message"></textarea>
                                     <label className="form-label" htmlFor="Message">Message</label>
                                 </div>
 
                             {/* Submit button */}
-                                <button type="button" className="btn btn-danger btn-block mb-4">Submit</button>
+                                <button type="button" className="btn btn-danger btn-block mb-4 border-2 border-dark">Submit</button>
                             </form>
                         </div>
                         <div className="col-12 col-md-6">
