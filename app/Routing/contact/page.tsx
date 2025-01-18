@@ -19,13 +19,17 @@ export default function Contact() {
                 <br/><br/>
                 {/* Form for the contact page */}
                 <div className="container p-5 bg-primary">
-                    <div className="container pt-3 text-white bg-dark p-3 ">
+                    <div className="container pt-3 text-white bg-dark p-3 text-center">
                         <h4>Schedule your Free Estimate</h4>
                         <h3>Receive $100 Off your first kitchen exhaust service</h3>
                     </div>
                     <br/>
                     <div className="row">
                         <div className="col-12 col-md-6">
+                            <div className="p-3">
+                                <h4 className="font-weight-bold pb-1">Request a Quote</h4>
+                                <p>Fill out the form below and we will contact you as soon as possible!</p>
+                            </div>
                             <form className="container p-3">
                             {/* 2 column grid layout with text inputs for the first and last names  */}
                                 <div className="row mb-4">
@@ -72,8 +76,26 @@ export default function Contact() {
                             </form>
                         </div>
                         <div className="col-12 col-md-6">
+                            <div className="p-3">
+                                <h4 className="font-weight-bold pb-1">Our Headquarters</h4>
+                                <p>1751 Sheppard Avenue E Toronto, ON</p>
+                                {/* <div className="row">
+                                    <div className="col col-md-6">
+                                        <p><strong>Email:</strong> 647-789-3890</p>
+                                    </div>
+                                    <div className="col col-md-6">
+                                        <p><strong>Phone:</strong> hydrosquad@gmail.com</p>
+                                    </div>
+                                    <div className="col col-md-6">
+                                        <p><strong>Phone:</strong> hydrosquad@gmail.com</p>
+                                    </div>
+
+                                </div> */}
+                                
+                                
+                            </div>
                             {/* testing the Map component */}
-                            <div>
+                            <div className="p-1">
                                 <Map />
                             </div>
                         </div>

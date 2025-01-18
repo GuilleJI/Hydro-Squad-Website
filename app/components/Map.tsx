@@ -24,8 +24,8 @@ export function Map() {
 
             // Create a new map object for the map reference
             const position = {
-                lat: 43.653225,
-                lng: -79.383186
+                lat: 43.775402,
+                lng: -79.343956
             }
 
             // map options 

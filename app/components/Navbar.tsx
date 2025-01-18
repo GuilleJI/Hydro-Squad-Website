@@ -17,7 +17,7 @@ export default function Navbar() {
         // Navbar
         <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{backgroundColor: 'rgba(56, 57, 58, 0.8)'}}>
             {/* Navbar brand */}
-            <div className="container-fluid m-2">
+            <div className="container-fluid ">
                 <Image 
                     alt="Hydro Squad" 
                     className="navbar-brand rounded-4 image-fluid" 
