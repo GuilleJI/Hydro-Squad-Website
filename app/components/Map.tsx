@@ -22,7 +22,7 @@ export function Map() {
             // Import the Map class from the Google Maps JavaScript API..await is used to wait for the map to load
             const { Map } = await loader.importLibrary('maps'); 
 
-            // Import the Marker class from the Google Maps JavaScript API
+            // Import the Marker class from the Google Maps JavaScript API..await is used to wait for the marker to load
             const { Marker } = await loader.importLibrary('marker') as google.maps.MarkerLibrary;
 
             // Create a new map object for the map reference
