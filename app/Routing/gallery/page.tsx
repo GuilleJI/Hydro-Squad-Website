@@ -20,7 +20,7 @@ export default function Gallery() {
                     <br/><br/><br/><br/><br/>
                     <h1 className="text-white d-flex p-2">Our Gallery</h1>
                 </div>
-                <br/><br/>
+                <br/>
                 {/* Before/After section */}
                 <div className="p-5 pb-5">     
                     <div className="text-center">

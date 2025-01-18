@@ -92,7 +92,7 @@ export default function About() {
 
                 <div className="container p-4">
                     <div className="row">
-                        <div className="col-12 col-md-6 p-5">
+                        <div className="col-12 col-md-6 p-2">
                             <h2>
                                 Why Choose Hydro Squad?
                             </h2>
@@ -103,7 +103,7 @@ export default function About() {
                             <br/>
                             <p className="lead">At Hydro Squad, we don't just clean; we care. With a genuine passion for what we do, we've mastered cleaning across various settings, always pushing for innovation with eco-friendly tech. We're transparent, showing you our work through photos, because we believe in honesty over hype. Choosing us means opting for a team genuinely committed to your satisfaction, where every service reflects our dedication to doing things right.</p>
                         </div>
-                        <div className="col-12 col-md-6 p-5">
+                        <div className="col-12 col-md-6 p-2">
                             <div className="text-center">
                                 <Image
                                     className="img-fluid rounded-4"
