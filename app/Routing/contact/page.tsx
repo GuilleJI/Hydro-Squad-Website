@@ -85,8 +85,8 @@ export default function Contact() {
                 </div>
                 <br/><br/>
                 {/* Form for the contact page */}
-                <div className="container p-5 bg-secondary rounded-4">
-                    <div className="container pt-3 text-white bg-dark p-2 text-center rounded-4">
+                <div className="container p-5 bg-secondary rounded-4 border border-3 border-light">
+                    <div className="container pt-3 text-white bg-dark p-2 text-center rounded-4 border border-2 border-light">
                         <h4>Schedule your Free Estimate</h4>
                         <h3>Receive $100 Off your first kitchen exhaust service</h3>
                     </div>
@@ -171,7 +171,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="container mt-4 p-2 text-white bg-dark text-center rounded-4" style={{ overflow: 'hidden' }}>
+                    <div className="container mt-4 p-2 text-white bg-dark text-center rounded-4 border border-2 border-light" style={{ overflow: 'hidden' }}>
                         <h5>Phone: 647-789-3890</h5>
                         <h5>Email: hydrosquad@gmail.com</h5>
                     </div>            
