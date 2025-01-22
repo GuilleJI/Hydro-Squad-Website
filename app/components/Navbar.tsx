@@ -15,7 +15,7 @@ if(typeof window !== "undefined"){
 export default function Navbar() {
     return (
         // Navbar
-        <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{backgroundColor: 'rgba(36, 38, 41, 0.9)'}}>
+        <nav className="navbar navbar-expand-md navbar-light fixed-top" style={{backgroundColor: 'rgba(113, 124, 131, 0.5)'}}>
             {/* Navbar brand */}
             <div className="container-fluid ">
                 <Image 

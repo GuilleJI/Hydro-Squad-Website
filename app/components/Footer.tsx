@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             {/* // Add a footer for the application */}
-            <footer className="text-center text-white" style={{backgroundColor: "rgb(14, 46, 100)"}}>
+            <footer className="text-center text-white" style={{backgroundColor: "rgb(5, 59, 114)"}}>
                 {/* // Add a container for the footer */}
                 <div className="container">
                     {/* // Add a section for the footer */}
@@ -62,10 +62,7 @@ export default function Footer() {
                         <div className="row d-flex justify-content-center">
                         <div className="col-lg-8">
                             <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                            distinctio earum repellat quaerat voluptatibus placeat nam,
-                            commodi optio pariatur est quia magnam eum harum corrupti
-                            dicta, aliquam sequi voluptate quas.
+                                Hydro Squad Kitchen Exhaust Cleaning is your go-to source for professional kitchen cleaning services. We specialize in kitchen exhaust hood cleaning, pressure washing, and more. Contact us today to schedule your free estimate and receive $100 off your first kitchen exhaust service.
                             </p>
                         </div>
                         </div>

@@ -56,7 +56,7 @@ export default function Page() {
                     </div>
                     <div className='form-group p-2'>
                       <label htmlFor="message" className='pb-2'>How can we help you?</label>
-                      <textarea className='form-control' id='message' placeholder='Enter your message' />
+                      <textarea className='form-control' id='message' placeholder='Enter your message including address and postal' />
                     </div>
                     <br/>
                     <div className='form-group p-2 pb-4'>
