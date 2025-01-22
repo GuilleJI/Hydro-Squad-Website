@@ -1,9 +1,70 @@
 // React component Contact
+"use client"; 
 import Image from "next/image"
 import contact from "../../images/rohit-tandon-Mkh2La9fEDY-unsplash.jpg";
+import { useState} from "react"; // React hook useState for the form inputs 
+import { Toaster, toast } from 'sonner'
 import { Map } from "../../components/Map";
+import emailjs from "@emailjs/browser"; // EmailJS for the form submission
 
 export default function Contact() {
+
+    // React hook useState for the form inputs
+    const [ userInput, setUserInput ] = useState({
+        Name: "",
+        LastName: "",
+        Company: "",
+        Email: "",
+        Phone: "",
+        Message: ""
+    }); 
+    
+    // React hook for the form inputs
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => { // React hook for the form inputs
+        const { name, value } = e.target; // Get the name and value of the input
+        setUserInput( { 
+            ...userInput, // Spread operator to copy the existing state
+            [name]: value // Update the state with the form inputs
+        }); // Update the state with the form inputs
+    };
+
+    // React hook for the form submission
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault(); // Prevent the default form submission
+
+        const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string; // Get the service ID from the environment variables
+        const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string; // Get the template ID from the environment variables
+        const userID = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string; // Get the user ID from the environment variables
+
+        try {
+            const emailParams = {
+                Name: userInput.Name,
+                LastName: userInput.LastName,
+                Company: userInput.Company,
+                Email: userInput.Email,
+                Phone: userInput.Phone,
+                Message: userInput.Message
+            }; // Create an object with the form inputs
+
+            // Send the email using the emailjs.send method
+            const res = await emailjs.send(serviceID, templateID, emailParams, userID); // Send the email using the emailjs.send method
+
+            if( res.status === 200){
+                toast.success("Email sent successfully!"); // Display a success message if the email is sent successfully
+                setUserInput({
+                    Name: "",
+                    LastName: "",
+                    Company: "",
+                    Email: "",
+                    Phone: "",
+                    Message: ""
+                });
+            }
+        } catch (error) {
+            toast.error("An error occurred while sending the email!"); // Display an error message if there is an error while sending
+        }
+    };
+
     return (
         <>
             {/* React component Contact */}
@@ -30,19 +91,19 @@ export default function Contact() {
                                 <h4 className="font-weight-bold pb-1">Request a Quote</h4>
                                 <p>Fill out the form below and we will contact you as soon as possible!</p>
                             </div>
-                            <form>
+                            <form onSubmit={handleSubmit}>
                             {/* 2 column grid layout with text inputs for the first and last names  */}
                                 <div className="row mb-4">
                                     <div className="col">
                                         <div className="form-outline ">
                                             <label className="form-label" form="Name">First Name</label>
-                                            <input type="text" id="Name" className="form-control border-2 border-dark" placeholder="First Name"/>
+                                            <input type="text" id="Name" value={userInput.Name} onChange={handleChange} required className="form-control border-2 border-dark" placeholder="First Name" name="Name"/>
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="form-outline">
                                             <label className="form-label" form="LastName">Last Name</label>
-                                            <input type="text" id="LastName" className="form-control border-2 border-dark" placeholder="Last Name"/>
+                                            <input type="text" id="LastName" value={userInput.LastName} onChange={handleChange} className="form-control border-2 border-dark" placeholder="Last Name" name="LastName"/>
                                         </div>
                                     </div>
                                 </div>
@@ -50,49 +111,37 @@ export default function Contact() {
                             {/* Text input */}
                                 <div className="form-outline mb-4">
                                     <label className="form-label" form="Company">Company Name</label>
-                                    <input type="text" id="Company" className="form-control border-2 border-dark" placeholder="Company Name"/>
+                                    <input type="text" id="Company" value={userInput.Company} onChange={handleChange} className="form-control border-2 border-dark" placeholder="Company Name" name="Company"/>
                                 </div>
 
                             {/* Email input */}
                                 <div className="form-outline mb-4">
                                     <label className="form-label" form="Email">Email</label>
-                                    <input type="email" id="Email" className="form-control border-2 border-dark" placeholder="Email"/>
+                                    <input type="email" id="Email" value={userInput.Email} onChange={handleChange} className="form-control border-2 border-dark" placeholder="Email" name="Email"/>
                                 </div>
 
                             {/* Number input  */}
                                 <div className="form-outline mb-4">
                                     <label className="form-label" form="Phone">Phone</label>
-                                    <input type="number" id="Phone" className="form-control border-2 border-dark" placeholder="Phone"/>
+                                    <input type="number" id="Phone" value={userInput.Phone} onChange={handleChange} className="form-control border-2 border-dark" placeholder="Phone" name="Phone"/>
                                 </div>
                             
                             {/* Message input */}
                                 <div className="form-outline mb-4">
                                     <label className="form-label" htmlFor="Message">Message</label>
-                                    <textarea className="form-control border-2 border-dark" id="Message" rows={4} placeholder="Your message"></textarea>
+                                    <textarea className="form-control border-2 border-dark" id="Message" value={userInput.Message} onChange={handleChange} rows={4} placeholder="Your message" name="Message"></textarea>
                                 </div>
 
                             {/* Submit button */}
-                                <button type="button" className="btn btn-primary btn-lg w-100 border-2 border-dark">Submit</button>
+                                <button type="submit" className="btn btn-primary btn-lg w-100 border-2 border-dark">Submit</button>
+                                <Toaster />
+    
                             </form>
                         </div>
                         <div className="col-12 col-md-6 py-2">
                             <div className="py-2">
                                 <h4 className="font-weight-bold pb-1">Our Headquarters</h4>
                                 <p>1751 Sheppard Avenue E Toronto, ON</p>
-                                {/* <div className="row">
-                                    <div className="col col-md-6">
-                                        <p><strong>Email:</strong> 647-789-3890</p>
-                                    </div>
-                                    <div className="col col-md-6">
-                                        <p><strong>Phone:</strong> hydrosquad@gmail.com</p>
-                                    </div>
-                                    <div className="col col-md-6">
-                                        <p><strong>Phone:</strong> hydrosquad@gmail.com</p>
-                                    </div>
-
-                                </div> */}
-                                
-                                
                             </div>
                             {/* testing the Map component */}
                             <div >
