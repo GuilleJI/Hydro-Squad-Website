@@ -3,16 +3,21 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Hydro Squad Website
 A user-friendly website for kitchen exhaust cleaning services across Ontario. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About
+This project showcases a dynamic platform where clients can explore our services and request cleaning quotes effortlessly. Built using modern technologies:
 
+- **Framework**: Next.js
+- **Language**: TypeScript
+- **Styling**: Bootstrap
+- **Email**: Email.js for quote requests
+
+## Features
+
+- Informational pages about our services and company.
+- Quote request form for easy client interaction.
+- Responsive design for all devices.
+
+- 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
