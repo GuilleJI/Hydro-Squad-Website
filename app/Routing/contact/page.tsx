@@ -14,6 +14,8 @@ export default function Contact() {
         Name: "",
         LastName: "",
         Company: "",
+        Address: "",
+        Postal: "",
         Email: "",
         Phone: "",
         Message: ""
@@ -41,6 +43,8 @@ export default function Contact() {
                 Name: userInput.Name,
                 LastName: userInput.LastName,
                 Company: userInput.Company,
+                Address: userInput.Address,
+                Postal: userInput.Postal,
                 Email: userInput.Email,
                 Phone: userInput.Phone,
                 Message: userInput.Message
@@ -55,6 +59,8 @@ export default function Contact() {
                     Name: "",
                     LastName: "",
                     Company: "",
+                    Address: "",
+                    Postal: "",
                     Email: "",
                     Phone: "",
                     Message: ""
@@ -79,8 +85,8 @@ export default function Contact() {
                 </div>
                 <br/><br/>
                 {/* Form for the contact page */}
-                <div className="container p-5 bg-secondary">
-                    <div className="container pt-3 text-white bg-dark p-2 text-center">
+                <div className="container p-5 bg-secondary rounded-4">
+                    <div className="container pt-3 text-white bg-dark p-2 text-center rounded-4">
                         <h4>Schedule your Free Estimate</h4>
                         <h3>Receive $100 Off your first kitchen exhaust service</h3>
                     </div>
@@ -114,6 +120,22 @@ export default function Contact() {
                                     <input type="text" id="Company" value={userInput.Company} onChange={handleChange} className="form-control border-2 border-dark" placeholder="Company Name" name="Company"/>
                                 </div>
 
+                            {/* Address and Postal Code */}
+                                <div className="row mb-4">
+                                    <div className="col">
+                                        <div className="form-outline ">
+                                            <label className="form-label" form="Address">Address</label>
+                                            <input type="text" id="Address" value={userInput.Address} onChange={handleChange} required className="form-control border-2 border-dark" placeholder="Address" name="Address"/>
+                                        </div>
+                                    </div>
+                                    <div className="col">
+                                        <div className="form-outline">
+                                            <label className="form-label" form="Postal">Postal Code</label>
+                                            <input type="text" id="Postal" value={userInput.Postal} onChange={handleChange} className="form-control border-2 border-dark" placeholder="Postal Code" name="Postal"/>
+                                        </div>
+                                    </div>
+                                </div>
+
                             {/* Email input */}
                                 <div className="form-outline mb-4">
                                     <label className="form-label" form="Email">Email</label>
@@ -139,17 +161,17 @@ export default function Contact() {
                             </form>
                         </div>
                         <div className="col-12 col-md-6 py-2">
-                            <div className="py-2">
+                            <div className="py-2 ">
                                 <h4 className="font-weight-bold pb-1">Our Headquarters</h4>
                                 <p>1751 Sheppard Avenue E Toronto, ON</p>
                             </div>
                             {/* testing the Map component */}
-                            <div >
+                            <div className="py-4">
                                 <Map />
                             </div>
                         </div>
                     </div>
-                    <div className="container mt-4 p-2 text-white bg-dark text-center" style={{ overflow: 'hidden' }}>
+                    <div className="container mt-4 p-2 text-white bg-dark text-center rounded-4" style={{ overflow: 'hidden' }}>
                         <h5>Phone: 647-789-3890</h5>
                         <h5>Email: hydrosquad@gmail.com</h5>
                     </div>            
