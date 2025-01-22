@@ -34,7 +34,7 @@ export default function About() {
                         {/* Cards for About Us Section */}
                         {/* Card 1 */}
                         <div className="col-12 col-md-6 col-lg-4"> {/* Bootstrap Grid System */}
-                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-5 text-dark " style={{ backgroundColor: "rgba(238, 65, 22, 0.9)" }}> {/* Bootstrap Card */}
+                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-5 text-dark " style={{ backgroundColor: "rgba(241, 100, 65, 0.88)" }}> {/* Bootstrap Card */}
                                 <h5 className="card-title text-center py-3"><strong>Trusted Service Since 2015</strong></h5>
                                 <div className="p-3 bg-light border border-dark border-3 rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}> 
                                     <Image
