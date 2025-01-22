@@ -4,37 +4,35 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 A user-friendly website for kitchen exhaust cleaning services across Ontario. 
 
 ## About
-This project showcases a dynamic platform where clients can explore our services and request cleaning quotes effortlessly. Built using modern technologies:
+This project showcases a dynamic platform where clients can explore the company's services and request cleaning quotes effortlessly. Built using modern technologies:
 
 - **Framework**: Next.js
 - **Language**: TypeScript
 - **Styling**: Bootstrap
 - **Email**: Email.js for quote requests
+- **Mapping**: Google Maps for locating the business
 
 ## Features
 
-- Informational pages about our services and company.
+- Informational pages about services and company.
 - Quote request form for easy client interaction.
 - Responsive design for all devices.
+- Integrated Google Maps to show business location.
+  
+## Usage 
 
-- 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Navigate through the site to view services offered.
+- Use the quote form to send cleaning requests directly to our email.
+- Locate the business using the integrated Google Maps feature.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**:
+   ```sh
+   git clone [your-repository-url]
+2. **Install dependencies**:
+   ```sh
+   npm install
+3. **Run the development server**:
+   ```sh
+   npm run dev
