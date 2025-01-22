@@ -23,7 +23,7 @@ export function Map() {
             const { Map } = await loader.importLibrary('maps'); 
 
             // Import the Marker class from the Google Maps JavaScript API..await is used to wait for the marker to load
-            const { Marker } = await loader.importLibrary('marker') as google.maps.MarkerLibrary;
+            const { AdvancedMarkerElement } = await loader.importLibrary('marker') as google.maps.MarkerLibrary;
 
             // Create a new map object for the map reference
             const position = {
@@ -42,9 +42,10 @@ export function Map() {
             const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
 
             // put up a marker
-            const marker = new Marker ({
+            const marker = new AdvancedMarkerElement ({
                 map: map, 
-                position: position
+                position: position, 
+
             });
 
         }
