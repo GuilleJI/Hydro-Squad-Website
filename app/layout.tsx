@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // Metadata for the page
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
