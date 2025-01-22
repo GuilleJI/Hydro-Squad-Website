@@ -200,3 +200,10 @@ export default function About() {
         </>
     )
 };
+
+// References: 
+/*
+The 'brain' icon is imported from iconduck.com attributed from "Font Awesome Icons" (fontawesome.com)
+The 'verified badge' icon is imported from iconduck.com attributed from "Iconoir Icon Library" (iconoir.com)
+The 'safety certificate fill system' icon is imported from iconduck.com attributed from "Ming Cute Icon Library" (mingcute.com)
+*/
