@@ -36,3 +36,7 @@ This project showcases a dynamic platform where clients can explore the company'
 3. **Run the development server**:
    ```sh
    npm run dev
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/b1224647-1eed-4917-b4f5-d8c26a3264d7)
