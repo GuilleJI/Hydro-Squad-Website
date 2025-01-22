@@ -3,7 +3,7 @@
 import Image from "next/image"
 import contact from "../../images/rohit-tandon-Mkh2La9fEDY-unsplash.jpg";
 import { useState} from "react"; // React hook useState for the form inputs 
-import { Toaster, toast } from 'sonner'
+import { Toaster, toast } from 'sonner' // Toast notifications for the form submission
 import { Map } from "../../components/Map";
 import emailjs from "@emailjs/browser"; // EmailJS for the form submission
 
