@@ -40,3 +40,20 @@ This project showcases a dynamic platform where clients can explore the company'
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/b1224647-1eed-4917-b4f5-d8c26a3264d7)
+
+![image](https://github.com/user-attachments/assets/4b5af1b2-1726-403d-8f7c-157cd1f52623)
+
+![image](https://github.com/user-attachments/assets/4210661a-1d93-4a4c-af73-bc17c78372f5)
+
+![image](https://github.com/user-attachments/assets/2592729b-6108-4b77-9bed-101ca1ad40fd)
+
+![image](https://github.com/user-attachments/assets/05c30953-60fe-4a5a-8576-9c2d998e26df)
+
+![image](https://github.com/user-attachments/assets/41e852b1-3d1b-4fb4-9598-30d7dd4e9ddc)
+
+- Footer
+![image](https://github.com/user-attachments/assets/4fc2341f-f8d0-4a52-8c5d-02442e42a6e6)
+
+
+
+
