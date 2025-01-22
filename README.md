@@ -1,8 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
-
-First, run the development server:
+## Hydro Squad Website
+A user-friendly website for kitchen exhaust cleaning services across Ontario. 
 
 ```bash
 npm run dev
