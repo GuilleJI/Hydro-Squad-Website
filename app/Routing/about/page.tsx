@@ -34,9 +34,9 @@ export default function About() {
                         {/* Cards for About Us Section */}
                         {/* Card 1 */}
                         <div className="col-12 col-md-6 col-lg-4"> {/* Bootstrap Grid System */}
-                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-4 bg-secondary text-bg-secondary"> {/* Bootstrap Card */}
+                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-5 bg-warning text-dark  text-bg-secondary"> {/* Bootstrap Card */}
                                 <h5 className="card-title text-center py-3"><strong>Trusted Service Since 2015</strong></h5>
-                                <div className="p-3 bg-light rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}> 
+                                <div className="p-3 bg-light border border-dark border-3 rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}> 
                                     <Image
                                         alt="Hydro Squad Verified Badge"
                                         src={badge}
@@ -45,7 +45,7 @@ export default function About() {
                                     />
                                 </div>
                                 <div className="card-body p-2">
-                                    <p className="card-text py-2"><strong>Since starting Hydro Squad back in 2015</strong>, we've been all about earning your trust and making sure you're happy with our work. We cover all of southern Ontario, focusing on giving the best clean to places like restaurants, nursing homes, hospitals, schools, mall food courts, and those tough commercial ovens. No job is too big or small for us - we're dedicated to doing it right!</p>
+                                    <p className="card-text py-2 fw-bold">Since starting Hydro Squad back in 2015, we've been all about earning your trust and making sure you're happy with our work. We cover all of southern Ontario, focusing on giving the best clean to places like restaurants, nursing homes, hospitals, schools, mall food courts, and those tough commercial ovens. No job is too big or small for us - we're dedicated to doing it right!</p>
                                     
                                     
                                 </div>
@@ -54,9 +54,9 @@ export default function About() {
 
                         {/* Card 2 */}
                         <div className="col-12 col-md-6 col-lg-4"> {/*Bootstrap Grid System */}
-                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-4 bg-secondary text-bg-secondary"> {/* Bootstrap Card */}
+                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-5 bg-warning text-dark text-bg-secondary"> {/* Bootstrap Card */}
                                 <h5 className="card-title text-center py-3"><strong>Safety & Compliance First</strong></h5>
-                                <div className="p-3 bg-light rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
+                                <div className="p-3 bg-light border border-dark border-3 rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
                                 <Image 
                                     alt = "Safety Certificate"
                                     src={safety}
@@ -65,16 +65,16 @@ export default function About() {
                                 />
                                 </div>
                                 <div className="card-body p-2">
-                                    <p className="card-text py-2"><strong>Customer satisfaction is our priority</strong>, and we take pride in our meticulous work. We strictly adhere to <strong>fire codes and insurance standards</strong>, providing essential cleaning services that <strong>reduce fire risks</strong> and extend equipment lifespan. With us, safety and efficiency are never compromised.</p>
+                                    <p className="card-text py-2 fw-bold">Customer satisfaction is our priority, and we take pride in our meticulous work. We strictly adhere to fire codes and insurance standards, providing essential cleaning services that reduce fire risks and extend equipment lifespan. With us, safety and efficiency are never compromised.</p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Card 3 */}
                         <div className="col-12 col-md-6 col-lg-4"> {/*Bootstrap Grid System */}
-                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-4 bg-secondary text-bg-secondary"> {/* Bootstrap Card */}
+                            <div className="card h-100 p-3 m-3 border border-4 border-light rounded-5 bg-warning text-dark  text-bg-secondary"> {/* Bootstrap Card */}
                                 <h5 className="card-title text-center py-3"><strong>Expert Service & Peace of Mind</strong></h5>
-                                <div className="p-3 bg-light rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
+                                <div className="p-3 bg-light border border-dark border-3 rounded-5 d-flex justify-content-center align-items-center" style={{ height: "250px" }}>
                                     <Image 
                                         alt="Peace of Mind"
                                         src={mind}
@@ -83,7 +83,7 @@ export default function About() {
                                     />
                                 </div>
                                 <div className="card-body p-2">
-                                    <p className="card-text py-2">Our <strong>highly trained team</strong> is dedicated to identifying potential issues and addressing them promptly. We ensure the highest level of <strong>safety and compliance</strong> for your kitchen exhaust systems. Trust us to keep your equipment clean and safe, giving you <strong>peace of mind</strong> with every service.</p>
+                                    <p className="card-text py-2 fw-bold">Our highly trained team is dedicated to identifying potential issues and addressing them promptly. We ensure the highest level of safety and compliance for your kitchen exhaust systems. Trust us to keep your equipment clean and safe, giving you peace of mind with every service.</p>
                                 </div>
                             </div>        
                         </div>
