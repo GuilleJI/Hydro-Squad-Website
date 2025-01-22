@@ -85,7 +85,7 @@ export default function Contact() {
                 </div>
                 <br/><br/>
                 {/* Form for the contact page */}
-                <div className="container p-5 bg-secondary rounded-4 border border-3 border-light">
+                <div className="container p-5 rounded-4 border border-3 border-light" style={{ backgroundColor: "rgba(70, 116, 168, 0.9)" }}>
                     <div className="container pt-3 text-white bg-dark p-2 text-center rounded-4 border border-2 border-light">
                         <h4>Schedule your Free Estimate</h4>
                         <h3>Receive $100 Off your first kitchen exhaust service</h3>
