@@ -97,7 +97,7 @@ export default function About() {
                                 Why Choose Hydro Squad?
                             </h2>
                             <div className="d-flex justify-content-start">
-                                <div className="border-top border-5 my-3 border-primary" style={{ width: "375px" }}>
+                                <div className="border-top border-5 my-3 border-primary text-center" style={{ width: "275px" }}>
                                 </div>
                             </div>
                             <br/>
@@ -123,7 +123,7 @@ export default function About() {
                         <h2><strong>Our Valued Loyal Customers</strong></h2>
                     </div> 
                     <div className="d-flex justify-content-center">
-                        <div className="border-top border-5 border-primary my-3" style={{ width: "375px" }}></div>
+                        <div className="border-top border-5 border-primary my-3" style={{ width: "175px" }}></div>
                     </div>
                 </div>
                 <div className="container p-4">
